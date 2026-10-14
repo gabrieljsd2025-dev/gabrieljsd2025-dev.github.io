@@ -4,27 +4,47 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Gabriel José — Motion Designer</title>
-  <meta name="description" content="Portfólio de Gabriel José: motion designer apaixonado por design e animação.">
+  <meta name="description" content="Gabriel José, motion designer. Vídeos institucionais, explicativos para SaaS, logo reveals e animações para redes sociais em motion graphics 2D.">
+  <link rel="canonical" href="https://gabrieljsd2025-dev.github.io/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#09090f">
+
+  <!-- Prévia ao compartilhar o link (WhatsApp, LinkedIn, Instagram...) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:url" content="https://gabrieljsd2025-dev.github.io/">
+  <meta property="og:title" content="Gabriel José — Motion Designer">
+  <meta property="og:description" content="Vídeos institucionais, explicativos para SaaS, logo reveals e animações para redes sociais.">
+  <meta property="og:image" content="https://gabrieljsd2025-dev.github.io/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&family=Gochi+Hand&family=Outfit:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://player.vimeo.com">
+  <link rel="preconnect" href="https://i.vimeocdn.com">
+  <link rel="preconnect" href="https://f.vimeocdn.com">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&family=Gochi+Hand&family=Outfit:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script>document.documentElement.classList.add('js')</script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Gabriel José","jobTitle":"Motion Designer","url":"https://gabrieljsd2025-dev.github.io/","address":{"@type":"PostalAddress","addressCountry":"BR"}}
+  </script>
 </head>
 <body>
+<a class="skip" href="#projetos">Pular para os projetos</a>
 
 <header class="nav" id="nav">
-  <a href="#home" class="logo">Gabriel<span>.</span></a>
+  <a href="#home" class="logo" aria-label="Gabriel José, início">Gabriel<span>.</span></a>
   <nav id="menu" aria-label="Principal">
     <a href="#home" class="active">Início</a>
     <a href="#projetos">Projetos</a>
-    <a href="#skills">Skills</a>
+    <a href="#servicos">Serviços</a>
     <a href="#sobre">Sobre</a>
     <a href="#contato">Contato</a>
   </nav>
-  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
 </header>
 
 <main>
@@ -43,8 +63,8 @@
       </svg>
       <p class="roles">Motion Designer <i></i> Designer <i></i> Animador</p>
       <div class="cta">
-        <a href="#showreel" class="btn btn-lime"><svg viewBox="0 0 12 14" width="12" aria-hidden="true"><path d="M1 1l10 6-10 6z" fill="currentColor"/></svg> Ver showreel</a>
-        <a href="#projetos" class="btn btn-ghost">Ver projetos <svg viewBox="0 0 12 12" width="12" aria-hidden="true"><path d="M2 10L10 2M4 2h6v6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="#projetos" class="btn btn-lime">Ver projetos <svg viewBox="0 0 12 12" width="12" aria-hidden="true"><path d="M2 10L10 2M4 2h6v6" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a href="#contato" class="btn btn-ghost">Pedir orçamento</a>
       </div>
     </div>
 
@@ -99,8 +119,8 @@
 
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track">
-      <span>After Effects</span><b></b><span>Illustrator</span><b></b><span>Photoshop</span><b></b><span>Premiere Pro</span><b></b><span>Blender</span><b></b><span>Figma</span><b></b>
-      <span>After Effects</span><b></b><span>Illustrator</span><b></b><span>Photoshop</span><b></b><span>Premiere Pro</span><b></b><span>Blender</span><b></b><span>Figma</span><b></b>
+      <span>Vídeo institucional</span><b></b><span>Explicativo SaaS</span><b></b><span>Logo reveal</span><b></b><span>Motion graphics 2D</span><b></b><span>Social media</span><b></b>
+      <span>Vídeo institucional</span><b></b><span>Explicativo SaaS</span><b></b><span>Logo reveal</span><b></b><span>Motion graphics 2D</span><b></b><span>Social media</span><b></b>
     </div>
   </div>
 
@@ -109,55 +129,80 @@
     <div class="sr-text">
       <h2 class="title"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1l2.5 8.5L23 12l-8.5 2.5L12 23l-2.5-8.5L1 12l8.5-2.5z" fill="currentColor"/></svg> <span id="srTitle">Showreel</span></h2>
       <p id="srDesc">Um resumo rápido do meu trabalho e da minha paixão por dar vida a histórias.</p>
-      <a href="#" class="more" data-video="SHOWREEL">Assistir agora <span class="circ"><svg viewBox="0 0 10 12" width="8" aria-hidden="true"><path d="M1 1l8 5-8 5z" fill="currentColor"/></svg></span></a>
+      <a href="#" class="more" data-video="SHOWREEL">Assistir com som <span class="circ"><svg viewBox="0 0 10 12" width="8" aria-hidden="true"><path d="M1 1l8 5-8 5z" fill="currentColor"/></svg></span></a>
     </div>
-    <button class="sr-video" data-video="SHOWREEL" aria-label="Assistir showreel" id="srVideo">
-      <svg class="scene" viewBox="0 0 800 350" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <button class="sr-video" data-video="SHOWREEL" aria-label="Assistir o vídeo em destaque com som" id="srVideo">
+      <svg class="scene" viewBox="0 0 800 450" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
         <defs>
           <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a1170"/><stop offset=".6" stop-color="#8a2f96"/><stop offset="1" stop-color="#e2476e"/></linearGradient>
         </defs>
-        <rect width="800" height="350" fill="url(#sky)"/>
-        <g class="layer l1"><circle cx="560" cy="120" r="82" fill="#ff4f6a" opacity=".25"/><circle cx="560" cy="120" r="58" fill="#ff4f6a"/></g>
+        <rect width="800" height="450" fill="url(#sky)"/>
+        <g class="layer l1"><circle cx="560" cy="170" r="82" fill="#ff4f6a" opacity=".25"/><circle cx="560" cy="170" r="58" fill="#ff4f6a"/></g>
         <g class="layer l2" fill="#3a1b73" opacity=".85">
-          <rect x="40" y="170" width="46" height="200"/><rect x="96" y="130" width="38" height="240"/><rect x="144" y="190" width="60" height="180"/>
-          <rect x="430" y="150" width="50" height="220"/><rect x="490" y="200" width="70" height="170"/><rect x="650" y="140" width="44" height="230"/><rect x="704" y="180" width="64" height="190"/>
+          <rect x="40" y="250" width="46" height="220"/><rect x="96" y="210" width="38" height="260"/><rect x="144" y="270" width="60" height="200"/>
+          <rect x="430" y="230" width="50" height="240"/><rect x="490" y="280" width="70" height="190"/><rect x="650" y="220" width="44" height="250"/><rect x="704" y="260" width="64" height="210"/>
         </g>
         <g class="layer l3" fill="#150d3a">
-          <rect x="-40" y="250" width="880" height="140"/><rect x="20" y="220" width="60" height="40"/><rect x="120" y="205" width="40" height="55"/><rect x="600" y="215" width="70" height="45"/><rect x="720" y="230" width="60" height="30"/>
-          <circle cx="330" cy="236" r="20"/><path d="M296 300c4-48 18-62 34-62s30 14 34 62z"/>
+          <rect x="-40" y="340" width="880" height="140"/><rect x="20" y="310" width="60" height="40"/><rect x="120" y="295" width="40" height="55"/><rect x="600" y="305" width="70" height="45"/><rect x="720" y="320" width="60" height="30"/>
         </g>
       </svg>
       <span class="play"><svg viewBox="0 0 14 16" width="22" aria-hidden="true"><path d="M1 1l12 7-12 7z" fill="currentColor"/></svg></span>
-      <span class="sr-meta" id="srMeta">Full HD</span>
+      <span class="sound-hint" aria-hidden="true"><svg viewBox="0 0 16 16" width="13"><path d="M2 6h3l4-3v10l-4-3H2z" fill="currentColor"/><path d="M11 5.5c1 .8 1 4.2 0 5M13 3.5c2 1.8 2 7.2 0 9" stroke="currentColor" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg> Clique para ouvir</span>
     </button>
   </section>
 
   <!-- ============ PROJETOS ============ -->
   <section class="panel reveal" id="projetos">
     <div class="panel-head">
-      <h2 class="title">Projetos em destaque <svg class="squig" viewBox="0 0 50 14" aria-hidden="true"><path d="M2 8c8-8 14 6 22-1s14 5 24-2" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/></svg></h2>
-      <a href="#contato" class="more small">Quero um projeto <svg viewBox="0 0 14 10" width="14" aria-hidden="true"><path d="M1 5h12M9 1l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <h2 class="title">Projetos <svg class="squig" viewBox="0 0 50 14" aria-hidden="true"><path d="M2 8c8-8 14 6 22-1s14 5 24-2" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round"/></svg> <span class="count" id="count"></span></h2>
+      <a href="#contato" class="more small">Quero um projeto assim <svg viewBox="0 0 14 10" width="14" aria-hidden="true"><path d="M1 5h12M9 1l4 4-4 4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
     </div>
-    <div class="cards" id="cards"></div>
+    <div class="cards" id="cards" aria-live="polite"></div>
   </section>
 
-  <!-- ============ SKILLS ============ -->
-  <section class="panel skills reveal" id="skills">
-    <h2 class="title">Skills</h2>
-    <ul>
-      <li><b class="ico ae">Ae</b><span>After Effects</span></li>
-      <li><b class="ico ai">Ai</b><span>Illustrator</span></li>
-      <li><b class="ico ps">Ps</b><span>Photoshop</span></li>
-      <li><b class="ico pr">Pr</b><span>Premiere Pro</span></li>
-      <li><b class="ico bl"><svg viewBox="0 0 24 24" width="26" aria-hidden="true"><circle cx="13" cy="13" r="6" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="13" cy="13" r="2" fill="currentColor"/><path d="M3 14l5-7h5" stroke="currentColor" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg></b><span>Blender</span></li>
-      <li><b class="ico fg">Fg</b><span>Figma</span></li>
+  <!-- ============ SERVIÇOS ============ -->
+  <section class="panel services reveal" id="servicos">
+    <div class="panel-head">
+      <h2 class="title">O que eu faço</h2>
+    </div>
+    <ul class="svc">
+      <li style="--c:var(--lime)">
+        <span class="svc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="12" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span>
+        <h3>Explicativos para SaaS e apps</h3>
+        <p>Mostro como o seu produto funciona em poucos segundos, com telas animadas e ritmo de anúncio.</p>
+      </li>
+      <li style="--c:var(--purple)">
+        <span class="svc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 20V9l8-5 8 5v11z"/><path d="M9 20v-6h6v6"/></svg></span>
+        <h3>Vídeos institucionais</h3>
+        <p>Contam a história da empresa ou do serviço com motion graphics 2D, roteiro claro e identidade da marca.</p>
+      </li>
+      <li style="--c:var(--orange)">
+        <span class="svc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4v4M12 16v4M4 12h4M16 12h4"/></svg></span>
+        <h3>Logo reveal e vinhetas</h3>
+        <p>Aberturas e assinaturas animadas para vídeos, canais e apresentações.</p>
+      </li>
+      <li style="--c:var(--blue)">
+        <span class="svc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+        <h3>Redes sociais e convites</h3>
+        <p>Posts, stories e convites animados no formato vertical, prontos para publicar.</p>
+      </li>
     </ul>
+    <div class="tools">
+      <span class="label">Ferramentas</span>
+      <ul>
+        <li><b class="ico ae">Ae</b>After Effects</li>
+        <li><b class="ico ai">Ai</b>Illustrator</li>
+        <li><b class="ico ps">Ps</b>Photoshop</li>
+        <li><b class="ico pr">Pr</b>Premiere Pro</li>
+        <li><b class="ico bl">Bl</b>Blender</li>
+        <li><b class="ico fg">Fg</b>Figma</li>
+      </ul>
+    </div>
   </section>
 
   <!-- ============ SOBRE ============ -->
   <section class="panel about reveal" id="sobre">
-    <div class="about-img">
-      <!-- Coloque sua foto ou ilustração aqui: <img src="img/gabriel.jpg" alt="Gabriel José"> -->
+    <div class="about-img" id="aboutImg">
       <span class="note">Foco<br>Disciplina<br>Consistência</span>
       <svg class="doodle" viewBox="0 0 80 40" aria-hidden="true"><path d="M4 30l8-22 8 22 8-22 8 22 8-22 8 22" stroke="#10130a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </div>
@@ -171,33 +216,55 @@
 
   <!-- ============ CONTATO ============ -->
   <section class="panel contact reveal" id="contato">
-    <h2 class="title big">Vamos fazer<br>algo <span class="dope">incrível!</span></h2>
+    <div class="contact-main">
+      <h2 class="title big">Vamos fazer<br>algo <span class="dope">incrível!</span></h2>
+      <p class="contact-sub">Me conte a ideia, o prazo e onde o vídeo vai ser usado.</p>
+      <div class="cta">
+        <a class="btn btn-lime" id="mailBtn" href="mailto:gabriel.jsd2025@gmail.com?subject=Projeto%20de%20motion%20design">
+          <svg viewBox="0 0 16 12" width="16" aria-hidden="true"><rect x="1" y="1" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M1.5 2l6.5 5 6.5-5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+          Mandar e-mail
+        </a>
+        <a class="btn btn-ghost" id="waBtn" href="#" target="_blank" rel="noopener" hidden>
+          <svg viewBox="0 0 16 16" width="16" aria-hidden="true"><path d="M8 1.5a6.5 6.5 0 0 0-5.6 9.8L1.5 14.5l3.3-.9A6.5 6.5 0 1 0 8 1.5z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M5.6 5.2c.2-.4.4-.4.6-.4h.4c.1 0 .3 0 .4.3l.6 1.3c0 .1 0 .3-.1.4l-.4.5c.4.8 1 1.4 1.9 1.9l.5-.5c.1-.1.3-.2.4-.1l1.3.6c.2.1.3.2.3.4 0 .6-.5 1.3-1.2 1.3-2.2 0-4.8-2.5-4.8-4.7 0-.4.1-.8.1-1z" fill="currentColor"/></svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
     <div class="contact-info">
       <span class="label">E-mail</span>
-      <button class="mail" id="copyMail" data-mail="gabriel.jsd2025@gmail.com">gabriel.jsd2025@gmail.com <em id="copyMsg">copiar</em></button>
+      <button class="mail" id="copyMail" data-mail="gabriel.jsd2025@gmail.com"><span id="mailText">gabriel.jsd2025@gmail.com</span> <em id="copyMsg">copiar</em></button>
       <span class="label">Local</span>
-      <span>Brasil</span>
-    </div>
-    <div class="socials">
-      <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
-      <a href="https://behance.net/" target="_blank" rel="noopener" aria-label="Behance">Bē</a>
-      <a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
-      <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      <span>Brasil · atendo remoto</span>
+      <div class="socials" id="socials"></div>
     </div>
   </section>
 </main>
 
-<footer>© <span id="year"></span> Gabriel José</footer>
+<footer>
+  <span>© <span id="year"></span> Gabriel José · Motion Designer</span>
+  <a href="#home" class="totop">Voltar ao topo ↑</a>
+</footer>
 
 <div class="modal" id="modal" aria-hidden="true">
   <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="mTitle">
-    <button class="close" aria-label="Fechar">×</button>
+    <div class="modal-top">
+      <span class="m-count" id="mCount"></span>
+      <button class="close" aria-label="Fechar (Esc)">×</button>
+    </div>
     <div class="player" id="player"></div>
-    <h3 id="mTitle"></h3>
-    <p id="mCat"></p>
+    <div class="modal-bottom">
+      <div>
+        <p class="m-cat" id="mCat"></p>
+        <h3 id="mTitle"></h3>
+      </div>
+      <div class="m-nav">
+        <button id="mPrev" aria-label="Projeto anterior (seta esquerda)">←</button>
+        <button id="mNext" aria-label="Próximo projeto (seta direita)">→</button>
+      </div>
+    </div>
   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>

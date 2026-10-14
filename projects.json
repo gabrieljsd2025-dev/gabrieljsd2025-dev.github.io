@@ -2,7 +2,19 @@
   "showreel": {
     "title": "Animações para SaaS",
     "category": "Vídeos que explicam produtos digitais com clareza e ritmo, do pedido à entrega.",
-    "video": "uploads/showreel-saas-pingflow.mp4"
+    "video": "uploads/showreel-saas-pingflow.mp4",
+    "cover": "uploads/capa-animacoes-para-saas.jpg",
+    "coverAuto": true
+  },
+  "profile": {
+    "email": "gabriel.jsd2025@gmail.com",
+    "whatsapp": "",
+    "instagram": "",
+    "behance": "",
+    "linkedin": "",
+    "vimeo": "",
+    "youtube": "",
+    "photo": ""
   },
   "projects": [
     {
