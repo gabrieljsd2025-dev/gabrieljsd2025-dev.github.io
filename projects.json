@@ -1,0 +1,72 @@
+{
+  "showreel": {
+    "title": "Animações para SaaS",
+    "category": "Vídeos que explicam produtos digitais com clareza e ritmo, do pedido à entrega.",
+    "video": "uploads/showreel-saas-pingflow.mp4"
+  },
+  "projects": [
+    {
+      "id": "p1",
+      "title": "Wiggles Project",
+      "category": "Animação com perspectiva",
+      "video": "https://vimeo.com/1089920918?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-corre.jpg",
+      "art": "run",
+      "coverAuto": true
+    },
+    {
+      "id": "pmv0wixfr",
+      "title": "DTC Business Company | Redesign de Vídeo Institucional em Motion Graphics",
+      "category": "Institucional",
+      "video": "https://vimeo.com/1234259769?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-dtc-business-company-redesign-de-video-institucional-em.jpg",
+      "coverAuto": true,
+      "art": "run"
+    },
+    {
+      "id": "p4",
+      "title": "Showreel para Cotaflow [versão livre-B]",
+      "category": "Animação 2D",
+      "video": "https://vimeo.com/1234246853?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-showreel-para-cotaflow-versao-livre-b.jpg",
+      "art": "eq",
+      "coverAuto": true
+    },
+    {
+      "id": "pmv0y4th8",
+      "title": "Pulso Fest - Convite Animado",
+      "category": "Flyer",
+      "video": "https://vimeo.com/1234378748?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-pulso-fest---convite-animado.jpg",
+      "art": "glitch",
+      "coverAuto": true
+    },
+    {
+      "id": "p3",
+      "title": "Instituto Ciclo | Vídeo Institucional em Motion Graphics 2D",
+      "category": "Explicativo",
+      "video": "https://vimeo.com/1234253832?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-instituto-ciclo-video-institucional-em-motion-graphics-.webp",
+      "coverAuto": true,
+      "art": "glitch"
+    },
+    {
+      "id": "pmv0xjqgv",
+      "title": "Logo Reveal - Vizum Cine",
+      "category": "Logo Reveal",
+      "video": "https://vimeo.com/1094245923?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-novo-projeto.webp",
+      "art": "tv",
+      "coverAuto": true
+    },
+    {
+      "id": "p2",
+      "title": "Programa Raízes | Serviço Premium de Psicoterapia",
+      "category": "Motion Graphics 2D",
+      "video": "https://vimeo.com/1234374091?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-tela-viva.webp",
+      "art": "tv",
+      "coverAuto": true
+    }
+  ]
+}

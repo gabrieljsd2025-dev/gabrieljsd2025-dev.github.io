@@ -1,0 +1,12 @@
+# Ficam só no seu computador (não vão para o site online)
+admin.html
+server.js
+iniciar.bat
+publicar.bat
+Referências/
+.claude/
+
+# Arquivos do sistema
+Thumbs.db
+desktop.ini
+.DS_Store
