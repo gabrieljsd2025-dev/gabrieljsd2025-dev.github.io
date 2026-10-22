@@ -36,6 +36,15 @@
       "coverAuto": true
     },
     {
+      "id": "p4",
+      "title": "[estudo] Stages",
+      "category": "Animação 2D",
+      "video": "https://vimeo.com/1092595721?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa--estudo.webp",
+      "art": "eq",
+      "coverAuto": true
+    },
+    {
       "id": "p1",
       "title": "Wiggles Project",
       "category": "Animação com perspectiva",
@@ -45,12 +54,12 @@
       "coverAuto": true
     },
     {
-      "id": "p4",
-      "title": "[estudo] Stages",
-      "category": "Animação 2D",
-      "video": "https://vimeo.com/1092595721?share=copy&fl=sv&fe=ci",
-      "cover": "uploads/capa--estudo.webp",
-      "art": "eq",
+      "id": "pmvjusyi1",
+      "title": "BD Serviços",
+      "category": "",
+      "video": "https://vimeo.com/1235633670?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/1235633670-share-copy-fl-sv-fe-ci.jpg",
+      "art": "run",
       "coverAuto": true
     },
     {
