@@ -18,15 +18,6 @@
   },
   "projects": [
     {
-      "id": "p1",
-      "title": "Wiggles Project",
-      "category": "Animação com perspectiva",
-      "video": "https://vimeo.com/1089920918?share=copy&fl=sv&fe=ci",
-      "cover": "uploads/capa-corre.jpg",
-      "art": "run",
-      "coverAuto": true
-    },
-    {
       "id": "pmv0wixfr",
       "title": "DTC Business Company | Redesign de Vídeo Institucional em Motion Graphics",
       "category": "Institucional",
@@ -34,6 +25,24 @@
       "cover": "uploads/capa-dtc-business-company-redesign-de-video-institucional-em.jpg",
       "coverAuto": true,
       "art": "run"
+    },
+    {
+      "id": "pmvjug2br",
+      "title": "Vinheta YT - The Travel Guys",
+      "category": "Animação 2D, Colagem",
+      "video": "https://vimeo.com/1089531038?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/1089531038-share-copy-fl-sv-fe-ci.jpg",
+      "art": "eq",
+      "coverAuto": true
+    },
+    {
+      "id": "p1",
+      "title": "Wiggles Project",
+      "category": "Animação com perspectiva",
+      "video": "https://vimeo.com/1089920918?share=copy&fl=sv&fe=ci",
+      "cover": "uploads/capa-corre.jpg",
+      "art": "run",
+      "coverAuto": true
     },
     {
       "id": "p4",
